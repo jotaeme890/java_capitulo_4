@@ -26,18 +26,18 @@ public class Ejercicio8 {
                 } else if(n > 10 || n2 > 10 || n3 > 10){
                     System.out.print("Por favor, dime bien los datos");
                     }else
-                        System.out.println("La media sería: " + media);
+                    System.out.printf("La media es %.2f\n", media);
                     
 
                 if(media < 5){
                     System.out.println("Tienes un insuficiente en la asignatura");
                 } else if(media == 5){
                     System.out.println("Tienes un suficiente en la asignatura");
-                    } else if(media >= 5 && media <= 6){
+                    } else if(media >= 6 && media < 7){
                         System.out.println("Tienes un bien en la asignatura");
-                            }else if(media >= 7 && media <= 8){
+                            }else if(media >= 7 && media < 9){
                             System.out.println("Tienes un notable en la asignatura");
-                                }else if(media >= 9  && media <= 10){
+                                }else if(media == 9  && media <= 10){
                                     System.out.println("Tienes un sobresaliente en la asignatura");
                                 }
         
