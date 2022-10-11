@@ -26,6 +26,5 @@ public class Ejercicio6 {
         } catch (InputMismatchException ex) {
             System.out.println("Por favor dime bien los formatos");
         }  
-    }
-    
+    } 
 }
