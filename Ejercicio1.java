@@ -26,5 +26,7 @@ public class Ejercicio1{
         } else 
             System.out.print("Lo siento no te he entendido, repite el día por favor");
 
+        sc.close();
+
     }
 }
