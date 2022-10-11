@@ -21,8 +21,11 @@ public class Ejercicio6 {
             } else
                 System.out.print("Tradaría un total de " + Math.sqrt(2*h/9.81) + " segundos");
         
+        sc.close();
+        
         } catch (InputMismatchException ex) {
             System.out.println("Por favor dime bien los formatos");
-        }
+        }  
     }
+    
 }
