@@ -12,13 +12,21 @@ public class Ejercicio7 {
     public static void main(String args []){
         try {
             Scanner sc = new Scanner (System.in);
-            System.out.print("Dime el valor de la altura en metros: ");
-            float  h = sc.nextFloat();
+            System.out.print("Dime la nota del primer examen: ");
+            float  n = sc.nextFloat();
+            System.out.print("Dime la nota del segundo examen: ");
+            float  n2 = sc.nextFloat();
+            System.out.print("Dime la nota del tercer examen: ");
+            float  n3 = sc.nextFloat();
 
-            if(h<=0){
-                System.out.print("No se puede hayar la velocidad en una altura negativa");
-            } else
-                System.out.print("Tradaría un total de " + Math.sqrt(2*h/9.81) + " segundos");
+            if(n < 0 || n2 < 0 || n3 < 0){
+                System.out.print("Por favor, dime bien los datos");
+            } else if(n > 10 || n2 > 10 || n3 > 10){
+                System.out.print("Por favor, dime bien los datos");
+            }else
+                System.out.print("La media sería: " + ((n+n2+n3)/3));
+
+            
         
         sc.close();
 
