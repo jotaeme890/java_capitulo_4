@@ -6,7 +6,6 @@
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Ejercicio7 {
     public static void main(String args []){
