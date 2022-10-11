@@ -1,3 +1,10 @@
+/*
+ * 1 Escribe un programa que pida por teclado un día de la semana y que diga qué asignatura toca a 
+ * primera hora ese día
+ * 
+ * @author jotaeme
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio1{
