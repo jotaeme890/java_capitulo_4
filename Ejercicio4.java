@@ -7,10 +7,12 @@
  * @author jotaeme
  */
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String args []){
+        try {
         Scanner sc = new Scanner (System.in);
         System.out.println("¿Cuántos horas trabajas a la semana?");
         int  n = sc.nextInt();
@@ -23,5 +25,8 @@ public class Ejercicio4 {
         System.out.println("Cobrarás " + ((40*12) + ((n - 40) *16)) + " euros a la semana");
 
         sc.close();
+        } catch (InputMismatchException ex) {
+            System.out.println("Por favor dime bien los formatos");
+        }
     }
 }
