@@ -5,12 +5,10 @@
  * @author jotaeme
  */
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio8 {
     public static void main(String args []){
-        try {
             Scanner sc = new Scanner (System.in);
             System.out.print("Dime la nota del primer examen: ");
             float  n = sc.nextFloat();
@@ -42,9 +40,5 @@ public class Ejercicio8 {
                                 }
         
         sc.close();
-
-        } catch (InputMismatchException ex) {
-            System.out.println("Por favor dime bien los formatos");
-        }  
     }
 }
