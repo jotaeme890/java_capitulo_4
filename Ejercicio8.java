@@ -1,5 +1,5 @@
 /*
- * 1 Amplía el programa anterior para que diga la nota del boletín (insuficiente, 
+ * 8 Amplía el programa anterior para que diga la nota del boletín (insuficiente, 
  * suficiente, bien, notable o sobresaliente).
  * 
  * @author jotaeme
