@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Ejercicio18 {
     public static void main(String args []){
             Scanner sc = new Scanner (System.in);
-            System.out.println("Dime un número: ");
+            System.out.println("Dime un número de hasta 5 cifras: ");
             int n = sc.nextInt();
 
             if(n<10 && n >=0){
@@ -22,8 +22,8 @@ public class Ejercicio18 {
                 System.out.print("La primera cifra es: " + n/1000);
             } else if(n>=10000 && n<=99999){
                 System.out.print("La primera cifra es: " + n/10000);
-            }
-
+            } else
+                System.out.println("Dime bien los valores por favor");
         sc.close();
     }
 }
