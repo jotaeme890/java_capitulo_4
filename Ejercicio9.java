@@ -12,15 +12,18 @@ public class Ejercicio9 {
     public static void main(String args []){
             Scanner sc = new Scanner (System.in);
             System.out.print("Dime el valor de a: ");
-            float  a = sc.nextFloat();
+            int  a = sc.nextInt();
             System.out.print("Dime el valor de b: ");
-            float  b = sc.nextFloat();
+            int  b = sc.nextInt();
             System.out.print("Dime el valor de c: ");
-            float  c = sc.nextFloat();
+            int  c = sc.nextInt();
+            float raiz = (b*b-4*a*c);
+            String ecuacion = a+ "x^2 + " + b + "x + " + c;
 
-            if (a != 0){
-            System.out.println("El resultado sería: " + (((b*(-1))+(Math.sqrt(b*b)-4*a*c)))/2*a );
-            System.out.print("El resultado sería: " + (((b*(-1))-(Math.sqrt(b*b)-4*a*c)))/2*a );
+            if (raiz >= 0 &&  2*a!=0){
+            System.out.printf("Las soluciones a la ecuación %s son: \n", ecuacion); 
+            System.out.printf("El resultado de x = %.2f \n", ((double)(-b)+Math.sqrt(raiz))/(double)2*a);
+            System.out.printf("El resultado de x = %.2f \n",  ((double)(-b)-Math.sqrt(raiz))/(double)2*a);
             }else 
             System.out.print("La ecuación no tiene resultado, vuelva a decir los datos");
 
