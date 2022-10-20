@@ -1,5 +1,5 @@
 /*
-  * 25 Una pastelería nos ha pedido realizar un programa que haga presupuestos de
+  * 27 Una pastelería nos ha pedido realizar un programa que haga presupuestos de
  * tartas. El programa preguntará primero de qué sabor quiere el usuario la tarta:
  * manzana, fresa o chocolate. La tarta de manzana vale 18 euros y la de fresa
  * 16. En caso de seleccionar la tarta de chocolate, el programa debe preguntar
