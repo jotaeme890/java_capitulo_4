@@ -73,5 +73,7 @@ public class Ejercicio24 {
         System.out.println("------------------------------------");
         System.out.printf(" Sueldo neto            %7.2f \n", sueldoBruto - cuantiaIrpf);
         System.out.println("------------------------------------");
+
+    sc.close();
     }
 }
