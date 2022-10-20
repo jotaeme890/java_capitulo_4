@@ -11,10 +11,8 @@
  */
 
 import java.util.Scanner;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 public class Ejercicio27 {
-
 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -36,7 +34,7 @@ public static void main(String[] args) {
             case "chocolate":
 
             System.out.print("¿Qué tipo de chocolate quiere? (negro o blanco): ");
-            tipoChocolate = ScheduledThreadPoolExecutor.nextLine();
+            tipoChocolate = sc.nextLine();
             if (tipoChocolate.equals("negro")) {
                 precioSabor = 14;
             } else if (tipoChocolate.equals("blanco")) {
@@ -58,19 +56,19 @@ public static void main(String[] args) {
             System.out.print(" " + tipoChocolate);
         }
 
-        System.out.printf(": %.2f €\n", precioSabor);
+        System.out.printf(": %.2f \n", precioSabor);
         
         if (conNata) {
             precioNata = 2.5;
-            System.out.printf("Con nata: %.2f €\n", precioNata);
+            System.out.printf("Con nata: %.2f \n", precioNata);
         }
         
         if (conNombre) {
             precioNombre = 2.75;
-            System.out.printf("Con nombre: %.2f €\n", precioNombre);
+            System.out.printf("Con nombre: %.2f \n", precioNombre);
         }
         
-        System.out.printf("Total: %.2f €\n", precioSabor + precioNata + precioNombre);
+        System.out.printf("Total: %.2f \n", precioSabor + precioNata + precioNombre);
 
     sc.close();
     }
