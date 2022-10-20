@@ -71,6 +71,8 @@ public static void main(String[] args) {
         }
         
         System.out.printf("Total: %.2f €\n", precioSabor + precioNata + precioNombre);
+
+    sc.close();
     }
 
 }
